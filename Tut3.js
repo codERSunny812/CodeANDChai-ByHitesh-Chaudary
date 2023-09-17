@@ -42,3 +42,11 @@ let sub = "23an"
 let dub = Number(sub)
 console.log(typeof (dub));
 console.log(dub);
+
+
+
+let newNumber = undefined
+console.log(newNumber)
+console.log(typeof newNumber)
+let newValue =  Number (newNumber)
+console.log(typeof newValue);
