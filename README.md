@@ -3,46 +3,46 @@
 
 
 
-## 📚 [_Chapter 01 - DATA TYPE ](./Tut.js) 
+## 📚 [_Chapter 01 - DATA TYPE](./Tut.js) 
 - 👨‍💻 Type of data type in js 
 
-## 📚 [_Chapter 02 -VARIABLE _](./Tut1.js) 
+## 📚 [_Chapter 02 -VARIABLE](./Tut1.js) 
 - 👨‍💻 Variable in js and how to declare variable in js
 
   
-## 📚 [_Chapter 03 - DATA TYPE  _](./Tut2.js) 
+## 📚 [_Chapter 03 - DATA TYPE](./Tut2.js) 
 - 👨‍💻 TypeOF function  in js
 
-## 📚 [_Chapter 04 - DATA TYPE CONVERSION _](./Tut3.js) 
+## 📚 [_Chapter 04 - DATA TYPE CONVERSION](./Tut3.js) 
 - 👨‍💻 Data type conversion in js
 
-## 📚 [_Chapter 05 - STRING TO NUMBER  _](./Tut4.js) 
+## 📚 [_Chapter 05 - STRING TO NUMBER](./Tut4.js) 
 - 👨‍💻 String to number confusion 
 
-## 📚 [_Chapter 06 - DATA TYPE COMPARISION  _](./Tut5.js) 
+## 📚 [_Chapter 06 - DATA TYPE COMPARISION](./Tut5.js) 
 - 👨‍💻 Comparison in js
 
-## 📚 [_Chapter 07 - DATA TYPE SUMMARY  _](./Tut6.js) 
+## 📚 [_Chapter 07 - DATA TYPE SUMMARY](./Tut6.js) 
 - 👨‍💻 Data type Summary in js 
 
-## 📚 [_Chapter 08 - MEMORY _](./Tut7.js) 
+## 📚 [_Chapter 08 - MEMORY](./Tut7.js) 
 - 👨‍💻 Type of memory in js  
 
 
-## 📚 [_Chapter 09 - STRING _](./Tut8.js) 
+## 📚 [_Chapter 09 - STRING](./Tut8.js) 
 - 👨‍💻 All about strings in js 
 
 
-## 📚 [_Chapter 10 - NUMBER AND MATHS_](./Tut9.js) 
+## 📚 [_Chapter 10 - NUMBER AND MATHS](./Tut9.js) 
 - 👨‍💻 Number and maths in js 
 
-## 📚 [_Chapter 11 - DATE  _](./Tut10.js) 
+## 📚 [_Chapter 11 - DATE](./Tut10.js) 
 - 👨‍💻 Date function in js 
 
-## 📚 [_Chapter 12 - ARRAYS _](./Tut11.js) 
+## 📚 [_Chapter 12 - ARRAYS](./Tut11.js) 
 - 👨‍💻 All about arrays in js
 
-## 📚 [_Chapter 12 - OBJECT    _](./Tut12.js) 
+## 📚 [_Chapter 12 - OBJECT](./Tut12.js) 
 - 👨‍💻 All about Object in js
 
   
