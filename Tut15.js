@@ -20,5 +20,6 @@ There are basically to two of execution context.
 2. execution  phase
 
 
+call stack - its show all the execution context present in a js program 
 */
 
