@@ -45,6 +45,20 @@
 ## 📚 [Chapter 12 - OBJECT](./Tut12.js) 
 - 👨‍💻 All about Object in js
 
+## 📚 [Chapter 13 - FUNCTION](./Tut13.js) 
+- 👨‍💻 All about function  in js
+
+## 📚 [Chapter 14 - SCOPE](./Tut14.js) 
+- 👨‍💻 Scope   in js
+
+## 📚 [Chapter 15 - EXECUTION CONTEXT](./Tut15.js) 
+- 👨‍💻 How does the javacript execute 
+
+## 📚 [Chapter 16 - CONTROL FLOW](./Tut16.js) 
+- 👨‍💻 Control Flow in javascript
+
+
+
   
 ## 🔥 Clone this Repository
 You need to write the following commands on the terminal screen(in vscode ) or on your gitbash terminal  so that you can run this project locally.
