@@ -57,6 +57,9 @@
 ## 📚 [Chapter 16 - CONTROL FLOW](./Tut16.js) 
 - 👨‍💻 Control Flow in javascript
 
+## 📚 [Chapter 17 - LOOPS](./Tut17.js) 
+- 👨‍💻 Loops in javascript
+
 
 
   
