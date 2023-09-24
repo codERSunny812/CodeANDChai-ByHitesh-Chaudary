@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+    background-color: #8080808f;
+}
+.body{
+    /* border: 2px solid black; */
+    margin-top: 7%; 
+}
+
+
+.body > h2{
+    text-transform: uppercase;
+    font-weight: bold;
+    color: teal;
+    padding-left: 6px;
+}
+
+input{
+    border: none;
+    outline: none;
+    /* background-color: rgba(162, 75, 212, 0.103); */
+    height: 27px;
+    padding: 0 3px 0 5px ;
+}
+input::placeholder{
+    text-transform: capitalize;
+    color: black;
+    opacity: 0.7    ;
+}
+
+.body > p{
+    /* border: 2px solid black ; */
+    margin-top: 18px;
+}
+
+p > label{
+    padding-left: 6px;
+    text-transform: capitalize;
+    color: black;
+}
+
+p > label > span{
+    text-transform: uppercase;
+}
+
+.submit-btn{
+    border: none;
+    border-radius: 2px;
+    padding: 5px;
+    margin-left: 10%;
+    text-transform: capitalize;
+}
+.submit-btn:hover{
+    background-color: tomato;
+    transition: 0.2s ease-in-out;
+    padding-right: 25px;
+}
+
+.bmiguide{
+    /* border: 2px solid black; */
+    margin-top: 12px;
+
+}
+
+.bmiguide > h3{
+text-transform: uppercase;
+
+}
+
+.bmiguide > p{
+    text-transform: capitalize;
+}
