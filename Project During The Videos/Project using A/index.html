@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color Changer </title>
+</head>
+<body style="background-color: grey;">
+    <div class="heading" style="text-align: center; color: white; font-size: 19px; font-weight: bold;">Start should chnage the background color every second </div>
+    <div class="button" style="padding-left: 50%; padding-right: 50%; margin-top: 3%; ">
+        <button style="padding: 5px; height: 30px; width: 65px; margin-top: 2px;text-transform: capitalize;" id="start">start </button>
+    <button style="padding: 5px; height: 30px; width: 65px; margin-top: 2px; text-transform: capitalize;" id="stop">stop</button>
+    </div>
+
+    <script>
+
+   const randomColor = () =>{
+    const hex = '0123456789ABCDEF';
+    let hexValue = '#';
+    for(let i=0;i<6;i++){
+    hexValue+=hex[Math.floor(Math.random()*16)]
+    }
+    return hexValue;
+   }
+
+//    console.log(randomColor());
+
+document.querySelector('#start').addEventListener('click', changeColor);
+
+document.querySelector('#stop').addEventListener('click',stopChangeColor);
+
+
+let intervalOfSetInterval;
+function changeColor(){
+intervalOfSetInterval=setInterval( colorBgChange, 1000);
+
+function colorBgChange(){
+    document.querySelector('body').style.backgroundColor=randomColor();
+}
+
+
+}
+function stopChangeColor(){
+    clearInterval(intervalOfSetInterval);
+}
+
+
+    </script>
+    
+</body>
+</html>
