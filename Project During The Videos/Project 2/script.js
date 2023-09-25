@@ -10,11 +10,23 @@ btn.addEventListener('click',()=>{
    console.log(weightValue);
    let newHeight = (heightValue*heightValue)/10000;
    bmi = Math.floor( (weightValue)/ newHeight);
-   console.log(bmi);
-   box.innerHTML=`
-<h2><span>Your Bmi is :</span> ${bmi}</h2>
+   if(heightValue === ' ' || heightValue < 0 || isNaN(heightValue)){
+      console.log("error");
+      box.innerHTML=` <h2>Please enter a valid value   of heigth</h2>`;
+     }
 
-`
+     if(weightValue === ' ' || weightValue < 0 || isNaN(weightValue)){
+      console.log("error");
+      box.innerHTML=` <h2>Please enter a valid value of weigth </h2>`;
+     }
+
+      console.log(bmi);
+      box.innerHTML=`
+      <h2><span>Your Bmi is :</span> ${bmi}</h2>
+      
+      `
    
-})
+   
+   
+});
 
