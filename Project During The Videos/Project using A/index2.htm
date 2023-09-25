@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project using Asyn await </title>
+</head>
+<body>
+    <h1 class="heading">Chai and code </h1>
+    <button type="submit" style="padding: 5px; height: 30px; width: 55px; outline: none; border: none; cursor: pointer;" class="btn"> submit </button>
+    <script>
+        const saySunny = () =>{
+            console.log("sunny");
+        }
+
+       const changeMe =  setTimeout(saySunny,1000);
+
+      const changeTextFun = () =>{
+        const heading = document.querySelector('h1');
+        console.log(heading);
+       heading.innerHTML="this is the best js series ";
+       console.log(heading.innerHTML);
+      }
+       
+      
+       const changeText = setTimeout(changeTextFun,3000)
+
+    //    now we have to clear it using the cleartime out , clear the time out using cleartimeout
+
+    document.querySelector('.btn').addEventListener('click' , ()=>{
+        clearTimeout(changeText);
+        console.log("stopped");
+    })
+
+    // we have stopped the setTimeout using the clearTimeOut
+
+
+
+
+
+
+       
+    </script>
+</body>
+</html>
