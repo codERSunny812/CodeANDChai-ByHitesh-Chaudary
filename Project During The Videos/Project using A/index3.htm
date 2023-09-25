@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Chai and javascript </h1>
+    <button id="start">start </button>
+    <button id="stop">stop</button>
+
+    <script>
+// const func1 = (str) =>{
+//     const num = Math.floor(Math.random()*10+1);
+//     console.log(str, num);
+// }
+
+// const newInterval = setInterval(func1 , 1000,"hey");
+// clearInterval(newInterval);
+
+let btn1 = document.querySelector('#start');
+let btn2 = document.querySelector('#stop');
+let newInterval;
+
+btn1.addEventListener('click', ()=>{
+    const func1 = (str) =>{
+    const num = Math.floor(Math.random()*10+1);
+    console.log(str, num);
+}
+   newInterval = setInterval(func1 , 1000,"hey"); 
+})
+
+btn2.addEventListener('click' , ()=>{
+    clearInterval(newInterval);   
+})
+
+    </script>
+</body>
+</html>
