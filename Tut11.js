@@ -5,8 +5,8 @@ const arr = [1,2,3,4,5,8]
 const fruits = new Array("Apple", "Banana");
 
 console.log(arr);
-//acessing the array element 
 
+//acessing the array element 
 console.log(arr[1]);
 
 console.log(arr.join("-"));
